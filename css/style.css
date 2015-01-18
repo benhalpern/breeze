@@ -1,0 +1,244 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Handlee);
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+body {
+  background:#00549E;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+  font-size:1.7em;
+  height:100%;
+  overflow: hidden;
+
+}
+
+.nav-butt{
+  display:none;
+  height:48px;
+  width:50px;
+  background:#1F8FCC;
+  font-size:36px;
+  border-radius:10px;
+  cursor:pointer;
+  font-family: 'Handlee', cursive;
+}
+.nav-butt:hover{
+  background:#48ACE2;
+}
+
+#back{
+  position:fixed;
+  top:10;
+  left:10;
+}
+#forward{
+  position:fixed;
+  top:10;
+  right:10;
+}
+
+#container{
+  /*display:none;*/
+  position: relative;
+  top: 40%;
+  transform: translateY(-60%);
+}
+
+h2 {
+  font-family: 'Arvo', serif;
+  }
+
+
+button {
+  font-size:2em;
+  background:#1F8FCC;
+  border:0;
+  padding:20px 40px;
+  font-family: 'Handlee', cursive;
+  color:white;
+  margin-top:30px;
+  cursor:pointer;
+  border-radius:8px;
+  min-width:378px;
+}
+button:hover{
+  background:#48ACE2;
+}
+
+#skyline{
+  width:101%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+/*Units*/
+
+#pickone{
+  position: relative;
+  top: 40%;
+  transform: translateY(-60%);
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  display:none;
+}
+
+#units{
+  display:inline-block;
+  margin-top:20px;
+  margin-bottom:20px;
+
+}
+
+.unit{
+  width:210px;
+  height:270px;
+  float:left;
+  background:white;
+  margin:10px;
+  border-radius:4px;
+  cursor:pointer;
+  position:relative;
+}
+
+.unit:hover img,.unit:hover .info{
+  opacity:0.1
+}
+
+.unit:hover .details{
+  opacity:1;
+}
+
+.unit:hover{
+  background:#DEF6FF;
+}
+
+.unit:hover .price{
+  background:#DA5EE6;
+}
+
+
+.unit img{
+  width:88%;
+}
+
+.info{
+  font-size:14px;
+  color: #003152;
+  margin-top:10px;
+}
+
+#basket .info{
+  margin-top:-8px;
+  margin-bottom:5px;
+}
+
+.price{
+  font-size:18px;
+  background:#DF93E6;
+  width:50%;
+  padding:4px 8px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:6px;
+  border-radius:4px;
+  -webkit-transition:all .15s;
+  transition:all .15s;
+}
+
+#basket .price{
+  font-size:14px;
+}
+
+.unit .details{
+  position:absolute;
+  top:3px;
+  padding:7px;
+  font-size:13.5px;
+  color:#00365C;
+  text-align: left;
+  opacity:0;
+}
+
+/*Step 3*/
+
+#whentocome{
+  position: relative;
+  top: 40%;
+  transform: translateY(-60%);
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  display:none;
+}
+
+#giveyourinfo{
+  position: relative;
+  top: 40%;
+  transform: translateY(-60%);
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  display:none;
+}
+form{
+  margin-top:20px;
+}
+
+.form-item{
+  height:65px;
+}
+input{
+  padding:10px;
+  font-size:22px;
+  margin:3px;
+  border:0;
+  border-radius:4px;
+}
+
+.submit{
+  width:264px;
+  cursor:pointer;
+  background:#00B3FF;
+  color:white;
+}
+
+#checkout{
+  display:inline-block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.checkoutsection{
+  float:left;
+}
+
+#basket{
+  background:white;
+  width:270px;
+  height:306px;
+  margin-right:8px;
+  margin-top:3px;
+  border-radius:4px;
+}
+
+.little{
+  font-size:16px;
+}
+
+#ontheway{
+  position: relative;
+  top: 40%;
+  transform: translateY(-60%);
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  display:none;
+}
+
+#runner{
+  margin-bottom:30px;
+}
